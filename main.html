@@ -29,15 +29,14 @@
 
       <!-- STAGE1　ここから -->
       <div id="sectionStage1" class="stage">
-
         <!-- STAGE1問題セクション　ここから -->
         <section class="section">
           <div class="container">
             <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：1</span>さぁゲームを始めよう！</h2>
-            <p class="text-center">まずは、この学校の家庭科室の鍵のありかを知らなければ入ることができない。<br>
-              下の画像の謎を解き、鍵のありかをキーワード欄に入力しよう。</p>
-            <p class="text-center">困ったときは、ヒントがある。なるべく見ないようにゲームを進めていこう。</p>
-  
+            <p class="text-center"メールボックスに「某有名ショッピングサイト」の配信メールが届いていることに気づいた『あなた』。
+たまたまメール内でおすすめされていた整髪剤が気になったので、そのリンクをクリックすると…。<br>
+              画面いっぱいに『閉じ込められた！！』の文字が映し出され、画面が固定されてしまった。<br>
+            ここはひとまず謎解きを解いてみるしか手立てがない。</p>
             <div class="container">
               <figure class="image__container">
                 <img src="assets/images/stage.png" alt="">
@@ -70,7 +69,7 @@ Youtube貼り付けここまで -->
             ------------------------------------------------------------------------------------------------------------>
             <answer-input v-bind:correct="correctAnswer['stage1']['q1']" v-on:answer-input="answerInput($event, 'stage1', 1)"></answer-input>
 
-            <a class="link-hint" href="hint1.html" target="hint1">ヒントをみる ></a>
+            <a class="link-hint" href="hint1.html" target="hint1">ヒント　></a>
           </div>
         </section>
         <!-- STAGE1解答入力セクション　ここまで -->
@@ -84,10 +83,8 @@ Youtube貼り付けここまで -->
         <section v-if="clear['stage1']" v-bind:class="{isClear:clear['stage1']}"  class="section section--clear bg-color--gray">
           <div class="container">
             <div class="clear-message">
-              <div class="clear-message__title">STAGE：１  クリア！</div>
-              <div class="clear-message__content">家庭科室の扉が開いた！<br>
-                さぁ先生を助けるため<br>
-                ３つステージの謎をとき、暗号を見つけ出そう！</div>
+              <div class="clear-message__title">STAGE：１  一つ目の謎解きを突破！</div>
+              <div class="clear-message__content">でも、まだ謎解きは続くようだ…
               <button v-on:click="nextStage('stage1')" onclick="location.href='#sectionStage2'" class="clear-message__btn btn">次のステージへ<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
             </div>
           </div>
