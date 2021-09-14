@@ -69,7 +69,7 @@ Youtube貼り付けここまで -->
             ------------------------------------------------------------------------------------------------------------>
             <answer-input v-bind:correct="correctAnswer['stage1']['q1']" v-on:answer-input="answerInput($event, 'stage1', 1)"></answer-input>
 
-            <a class="link-hint" href="hint1.html" target="hint1">ヒント　></a>
+            <a class="link-hint" href="hint1.html" target="hint1"> ヒント　> </a>
           </div>
         </section>
         <!-- STAGE1解答入力セクション　ここまで -->
@@ -83,8 +83,8 @@ Youtube貼り付けここまで -->
         <section v-if="clear['stage1']" v-bind:class="{isClear:clear['stage1']}"  class="section section--clear bg-color--gray">
           <div class="container">
             <div class="clear-message">
-              <div class="clear-message__title">STAGE：１  一つ目の謎解きを突破！</div>
-              <div class="clear-message__content">でも、まだ謎解きは続くようだ…
+              <div class="clear-message__title"> STAGE：１  一つ目の謎解きを突破！ </div>
+              <div class="clear-message__content"> <br>でも、まだ謎解きは続くようだ…
               <button v-on:click="nextStage('stage1')" onclick="location.href='#sectionStage2'" class="clear-message__btn btn">次のステージへ<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
             </div>
           </div>
