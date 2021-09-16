@@ -106,7 +106,7 @@ app.component('answer-input', {
     }
   },
   template: `
-    div class="answer__container">
+   <div class="answer__container">
       <div class="answer">
         <input type="text" v-model="inputAnswer" placeholder="入力">
       </div>
