@@ -239,11 +239,11 @@ button {
 * Color
 *********************/
 .bg-color--keycolor {
-  background-color: #39b54a;
+  background-color: #E60033;
 }
 
 .bg-color--subcolor {
-  background-color: #d9e021;
+  background-color: #00ccff;
 }
 
 .bg-color--gray {
@@ -264,7 +264,7 @@ button {
 }
 
 .sub-title__bg {
-  background-color: #fcee21;
+  background-color: #00ccff;
   padding-left: 1rem;
   padding-right: 1rem;
 }
@@ -274,7 +274,7 @@ button {
   line-height: 1.75;
   text-align: center;
   padding: 9px 20px;
-  background-color: #d9e021;
+  background-color: #ffffff;
   margin: 0 -20px 20px -20px;
 }
 
@@ -284,7 +284,7 @@ button {
 }
 
 .section-title--keycolorlight {
-  background-color: #8cc63f;
+  background-color: #87ceeb;
 }
 
 .section-title--keycolorlight .section-title__stage {
@@ -292,7 +292,7 @@ button {
 }
 
 .section-title--keycolor {
-  background-color: #39b54a;
+  background-color: #ffffff;
 }
 
 .section-title--story {
@@ -307,7 +307,7 @@ button {
   line-height: 1.06667;
   margin: 0;
   padding-bottom: 15px;
-  color: #006837;
+  color: #ff3300;
 }
 
 .section-title--border::after {
